@@ -1,0 +1,7 @@
+
+
+class InteractiveMaxMinBarChart {
+
+}
+
+export { InteractiveMaxMinBarChart };
