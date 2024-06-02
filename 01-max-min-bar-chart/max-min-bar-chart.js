@@ -14,7 +14,7 @@ class MaxMinBarChart {
 
         this.GetDOMElements();
 
-        fetch("../assets/data/data.json")
+        fetch("../assets/data/temperature-max-min-31days.json")
         .then(response => response.json())
         .then(data => {
             console.log(data);
