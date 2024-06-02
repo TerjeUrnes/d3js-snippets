@@ -1,4 +1,4 @@
-import { InteractiveMaxMinBarChart as MaxMinBarChart } from "./max-min-bar-chart.js";
+import { MaxMinBarChart } from "./max-min-bar-chart.js";
 
 var index;
 
