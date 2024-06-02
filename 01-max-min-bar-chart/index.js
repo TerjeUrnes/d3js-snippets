@@ -1,4 +1,4 @@
-import { InteractiveMaxMinBarChart } from "./interactive-max-min-bar-chart.js";
+import { InteractiveMaxMinBarChart as MaxMinBarChart } from "./max-min-bar-chart.js";
 
 var index;
 
@@ -17,13 +17,13 @@ window.addEventListener('resize', function() {
 
 class Index {
 
-    #interactiveBarChart
+    #barChart
 
     constructor() {
-        this.#interactiveBarChart = new InteractiveMaxMinBarChart();
+        this.#barChart = new MaxMinBarChart();
     }
 
     Resize() {
-        this.#interactiveBarChart.Resize();
+        this.#barChart.Resize();
     }
 }
