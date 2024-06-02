@@ -6,14 +6,29 @@
         <link rel="stylesheet" href="../assets/css/index.css">
         <link rel="stylesheet" href="../assets/css/01.css">
         <script type="module" src="index.js"></script>
-        <title>Interactive Max Min Barchart - d3js Snippets</title>
+        <title>Interactive Max Min Bar Chart - Terje Urnes d3js Snippets</title>
     </head>
     <body>
+        <header>
+            <span>TERJE URNES D3JS SNIPPETS</span>
+            <span>INTERACTIVE MAX MIN TEMPERATURE BAR CHART</span>
+        </header>
         <div id="content-container">
 
-            <div id="d3js-frame">Test</div>
+            <div id="selected-info">
+                <div id="selected-date">Monday</div>
+                <div class="selected-value">Max <span id="selected-max-value">88.8</span></div>
+                <div class="selected-value">Min <span id="selected-max-value">88.8</span></div>
+            </div>
+
+            <div id="d3js-frame"></div>
 
         </div>
+
+        <footer>
+            <span>All right reserved. Code under MIT license.</span>
+            <span>Repository <a href="https://github.com/TerjeUrnes/d3js-snippets">https://github.com/TerjeUrnes/d3js-snippets</a></span>
+        </footer>
 
         <div id="background-image-container">
 			<img src="../assets/images/eikjo-mars-1.webp" id="background-image" alt="">

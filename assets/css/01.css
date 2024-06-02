@@ -1,0 +1,27 @@
+
+#d3js-frame {
+    height: 100%;
+}
+
+#selected-info {
+    visibility: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
+.selected-value {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    font-size: 0.9rem;
+    gap: 0.3rem;
+}
+
+#selected-max-value,
+#selected-max-value {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
